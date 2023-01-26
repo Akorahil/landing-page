@@ -1,0 +1,39 @@
+/* flex utilities */
+.flex, .flex-column, .flex-gap, .flex-block {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-gap {
+    gap: 15px;
+}
+
+.flex-block {
+    flex-wrap: wrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* Spacing */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.content-center {
+    justify-content: center;
+    align-items: center;
+}
